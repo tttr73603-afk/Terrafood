@@ -7,7 +7,7 @@ cd -- "$(dirname -- "$0")"
 _cleanup() { rm -f -- /tmp/node-v*.tar.gz 2>/dev/null || true; }
 trap _cleanup EXIT
 
-printf '%s\n' "🔐 terrafood - Installer"
+printf '%s\n' "🔐 terra food - Installer"
 printf '%s\n' "============================================"
 printf '\n'
 

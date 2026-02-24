@@ -1,7 +1,7 @@
 {
-  "name": "terrafood",
+  "name": "terra food",
   "version": "1.5.14",
-  "description": "Terrafood SDK - Integration utilities",
+  "description": "Terra food SDK - Integration utilities",
   "main": "src/index.js",
   "types": "src/index.d.ts",
   "files": [
@@ -11,7 +11,7 @@
     "scripts/build.js"
   ],
   "bin": {
-    "terrafood": "./scripts/setup.js"
+    "terra food": "./scripts/setup.js"
   },
   "scripts": {
     "start": "node src/index.js",
